@@ -32,7 +32,7 @@ function getFills(score: number) {
     return fills;
   }
 
-  function star({ fill } : StarProps){
+  function Star({ fill } : StarProps){
     if(fill=== 0){  
     return <StarEmpty />
     }
